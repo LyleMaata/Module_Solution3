@@ -1,0 +1,172 @@
+body {
+
+	background-color: #708090;
+}
+
+/*Contents */
+
+
+h1  {
+    text-align: center;
+    font-family: Georgia, serif;
+}
+
+.menu {
+	margin: 20px;
+	padding: 5px;
+	background-color: #FFFACD;
+	border: 3px solid black;
+	border-radius: 10px;
+
+}
+
+.chicken  {
+     margin: 10px;
+     border: 3px solid black;
+     padding: 5px;
+     background-color: #FFFACD;
+     }
+
+.chicken:hover {
+
+    background-color:#DC143C;
+	transition: 1s;
+	cursor: pointer;
+}
+
+
+.sushi    {
+     margin: 10px;
+     border: 3px solid black;
+     padding: 5px;
+     background-color: #FFFACD;
+}
+
+.sushi:hover {
+	background-color:#DC143C;
+	transition: 1s;
+	cursor: pointer;
+
+}
+
+.beef {
+    margin: 10px;
+    border: 3px solid black;
+    padding: 5px;
+    background-color: #FFFACD;
+}
+
+.beef:hover {
+	background-color:#DC143C;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.row {
+    
+	width: 100%;
+	padding: 10px;
+	position: relative;
+	top: 100px;
+	left: 0px;
+	margin: 0 auto;
+	
+}
+
+
+.container-fluid {
+
+ width: 100%;
+ min-height: 1000px;
+
+ }
+
+
+.navbar {
+
+	border-style: 20px solid;
+	background:#DC143C;
+	border-radius: 0;
+	border: 0;
+	width: 1900px;
+	position: absolute;
+	left:0px;
+	top: 0px;
+	right:0px;
+	margin: 0 auto;
+}
+
+#title {
+
+ font-family: Georgia, serif;
+ margin: 20px;
+ letter-spacing: 3px;
+ float:left;
+
+}
+a {
+	color:#000000;
+	font-family: Georgia, serif;
+	font-size:30px;
+
+}
+
+li {
+
+	list-style:none;
+	background-color:#FFFACD;
+	border: 2px solid black;
+	padding: 5px;
+	margin: 5px;
+}
+
+li:hover {
+	background-color:#DC143C;
+	transition: 1s;
+	cursor: pointer;
+}
+
+a:link {
+	text-decoration: none;
+	
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+}
+
+.dropdown-button {
+	margin: 10px;
+	padding: 10px 15px;
+	float: right;
+	color:#F0F8FF;
+	background-color: #6495ED;
+	position: relative;
+	font-size : 20px;
+}
+
+.dropdown-button {
+    display:block;
+}
+.menu-list {
+	padding-top: 100px;
+
+}
+
+
+@media (min-width:786px) {
+	.dropdown-button {
+		display:none;
+	}
+}
+
+
+
